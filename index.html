@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>Tasks</title>
+</head>
+<body>
+    <div id="block" class="block">
+        <form name="f1">
+            <div class="first">
+                <h1>Список завдань</h1>
+                <div class="inputs">
+                    <div class="inputStyle">
+                        <input type="checkbox">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="inputStyle">
+                        <input type="checkbox">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="inputStyle">
+                        <input type="checkbox">
+                        <span>SASS/SCSS</span>
+                    </div>
+                    <div class="inputStyle">
+                        <input type="checkbox">
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="second">
+            <h1>Додати нове завдання</h1>
+            <div class="add">
+                <input type="text" class="inputText">
+            </div>
+            <input type="button" value="add" class="but">
+        </div>
+    </div>
+    <div class="last" style="visibility: hidden;">
+        <h2>Попередження!</h2>
+        <p>Пусте поле не можна додати</p>
+        <div class="closeBut"></div>
+    </div>
+    <div class="lastSec" style="visibility: hidden;">
+        <h2>Попередження!</h2>
+        <p>Останній елемент не можна видалити</p>
+        <div class="closeBut1"></div>
+    </div>
+    <script src="script.js" async defer></script>
+</body>
+</html>
